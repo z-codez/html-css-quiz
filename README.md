@@ -1,3 +1,7 @@
 # HTML CSS QUIZ
 
-Practicing HTML5 and CSS3
+Learning Accessibility by building a quiz
+
+## Technologies Used:
+1. HTML5
+2. CSS3
