@@ -23,19 +23,19 @@
 <!--main element contains the core content of your page-->
   <main>
     <form method="post" action="#" >
-      <fieldset id="student-info">
+      <section id="student-info">
         <h2>Student Info</h2>
-        <article>
+        <fieldset>
           <label for="student-name">Name:</label>
           <input id="student-name" type="text"/><br>
           <label for="student-email">Email:</label>
           <input id="student-email" type="email"><br>
           <label for="student-birthday">Date of Birth:</label>
           <input id="student-birthday" type="date">
-        </article>
+        </fieldset>
 
-      </fieldset>
-      <fieldset id="html-questions">
+      </section>
+      <section id="html-questions">
         <h2>HTML</h2>
         <article>
           <h3>Question #1</h3>
@@ -54,29 +54,31 @@
           <input type="radio" id="false2" name="question-2" value="FALSE">
           <label for="false2">False</label>
         </article>
-      </fieldset>
-      <fieldset id="css-questions">
+      </section>
+      <section id="css-questions">
         <h2>CSS</h2>
-        <article>
+        <fieldset>
           <label for="css">Can the CSS margin property accept negative values?</label><br>
-          <select id="css">
+          <select id="css" required>
             <option selected>Select an option</option>
-            <option>Yes</option>
-            <option>No</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
           </select><br>
           <label for="text-area">Do you have any questions:</label><br>
           <textarea id="text-area" rows="10" cols="50"></textarea>
-        </article>
-      </fieldset>
+        </fieldset>
+      </section>
       <input type="submit" value="Send"/>
     </form>
-
   </main>
   <footer>
-    <p><a href="https://freecodecamp.org/">freeCodeCamp</a></p>
-    <p>San Francisco</p>
-    <p>California</p>
-    <p>USA</p>
+    <address>
+      <p><a href="https://freecodecamp.org/">freeCodeCamp</a></p>
+      <p>San Francisco</p>
+      <p>California</p>
+      <p>USA</p>
+    </address>
+
   </footer>
 </body>
 
